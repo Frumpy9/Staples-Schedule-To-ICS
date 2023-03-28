@@ -20,4 +20,4 @@ Follow these steps to use the script:
 
 TODO:
 1. Make it better.
-2. Figure out how timezones work.
+2. ~~Figure out how timezones work.~~ Robot did it.
