@@ -1,7 +1,7 @@
 # Staples Schedule To ICS
 This script takes the outdated Staples schedule and reads your shifts for a month, converting them into an ICS file for easy calendar integration. Two bookmarklets are provided, allowing you to choose the one that best suits your needs: one for generating the ICS file (bookmarklet.txt) and another for opening the Google Calendar import page after downloading the ICS file (googleCalBookmarklet.txt).
 
-Special thanks to @nwcell for creating the ics.js library.
+Thanks to [@nwcell](https://github.com/nwcell) for making the [ics.js](https://github.com/nwcell/ics.js/) libary. 
 
 Follow these steps to use the script:
 
