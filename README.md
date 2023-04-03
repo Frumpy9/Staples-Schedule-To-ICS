@@ -1,9 +1,8 @@
 # Staples Schedule To ICS
-This script takes the outdated Staples schedule and reads your shifts for a month, converting them into an ICS file for easy calendar integration. Two bookmarklets are provided, allowing you to choose the one that best suits your needs: one for generating the ICS file (bookmarklet.txt) and another for opening the Google Calendar import page after downloading the ICS file (googleCalBookmarklet.txt).
 
-Thanks to [@nwcell](https://github.com/nwcell) for making the [ics.js](https://github.com/nwcell/ics.js/) libary. 
+This script converts your outdated Staples schedule into an ICS file, which can be easily integrated with your calendar. The script provides two bookmarklets: one for generating the ICS file and another for opening the Google Calendar import page after downloading the ICS file.
 
-Follow these steps to use the script:
+## Usage
 
 1. Open the `bookmarklet.txt` or `googleCalBookmarklet.txt` file in the repository.
 2. Locate your browser's bookmark bar.
@@ -15,12 +14,18 @@ Follow these steps to use the script:
 6. Paste the copied contents into the URL field of the bookmark dialog.
 7. Click "Save" or "Add" to finalize the creation of the selected bookmarklet.
 
-Now you can quickly generate an ICS file of your Staples schedule and, if desired, import it to your Google Calendar using the bookmarklet of your choice.
+## Credits
 
-**Disclaimer: This README was written by an AI language model (ChatGPT by OpenAI).**
+Thanks to [@nwcell](https://github.com/nwcell) for creating the [ics.js](https://github.com/nwcell/ics.js/) library.
 
+## Disclaimer
 
+This README was written by an AI language model (ChatGPT by OpenAI).
 
-TODO:
+## Keywords for SEO
+
+staples, schedule, ICS file, calendar integration, bookmarklets, ics.js library, Google Calendar, outdated schedule, shift, download
+
+## TODO:
 1. Make it better.
 2. ~~Figure out how timezones work.~~ Robot did it.
