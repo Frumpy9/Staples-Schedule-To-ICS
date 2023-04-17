@@ -18,6 +18,8 @@ const firstCells = table.querySelectorAll("td:first-child");
 const currentYear = new Date().getFullYear();
 const calendar = ics();
 
+let numberOfShifts = 0;
+
 // Iterate through the first cells to find work shifts
 firstCells.forEach((cell) => {
     const text = cell.innerText.trim();
@@ -54,8 +56,11 @@ firstCells.forEach((cell) => {
 
         // Add the work shift to the calendar
         calendar.addEvent("Work", "", "", startDate, endDate);
+
+        // Increment the number of shifts
+        numberOfShifts++;
     }
 });
 
-// Download the generated ICS file
-calendar.download(`WorkSchedule${monthValue}/${currentYear}`);
+// Download the generated ICS file with the updated file name
+calendar.download(`WorkSchedule${monthValue}/${currentYear}-${numberOfShifts}`);
