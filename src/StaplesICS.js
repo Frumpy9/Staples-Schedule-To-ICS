@@ -16,7 +16,7 @@ const firstCells = table.querySelectorAll("td:first-child");
 
 // Set up the calendar with the current year
 const currentYear = new Date().getFullYear();
-const calendar = ics();
+const calendar = ics(parseInt(""+ monthValue + currentYear, 10));
 
 let numberOfShifts = 0;
 
