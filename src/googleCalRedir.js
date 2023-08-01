@@ -67,5 +67,5 @@ calendar.download(`WorkSchedule${monthValue}/${currentYear}-${numberOfShifts}`);
 
 // Wait for 2 seconds (2000 ms) and then navigate to the Google Calendar export settings page
 setTimeout(() => {
-    window.location.href = "https://calendar.google.com/calendar/u/0/r/settings/export";
+    window.open("https://calendar.google.com/calendar/u/0/r/settings/export", "_blank")
 }, 2000);
